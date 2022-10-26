@@ -1,0 +1,16 @@
+openapi: "3.0.2"
+info:
+  title: "Demo Web API"
+  description: "Projeto demo de web API"
+  version: "2.5"
+  termsOfService: "CRIAR URL DE TERMOS DE SERVIÇO AQUI"
+  contact:
+    name: "Projeto demo de web API"
+    url: "CRIAR URL DE CONTATO AQUI"
+    email: "victormurilo@gmail.com"
+  license:
+    name: "CRIAR NOME DA LICENÇA AQUI"
+    url: "CRIAR URL DE LICENÇA AQUI"
+
+servers:
+  - url: "CRIAR URL DE SERVIDORES AQUI"
