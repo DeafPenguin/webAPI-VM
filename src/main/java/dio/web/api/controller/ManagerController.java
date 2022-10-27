@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/managers")
-@PreAuthorize("hasRole('MANAGERS')")
 public class ManagerController {
 
     @Autowired

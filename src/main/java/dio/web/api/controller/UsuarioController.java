@@ -10,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/users")
-@PreAuthorize("hasAnyRole('MANAGERS','USERS')")
 public class UsuarioController {
     @Autowired
     private UsuarioRepository repository;
